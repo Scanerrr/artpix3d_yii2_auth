@@ -12,6 +12,15 @@
 3. REST API с авторизацией для манипуляции со статьями от имени пользователей
 
 <h2>Установка</h2>
-1. Клонировать репозиторий `git clone https://github.com/Scanerrr/dinarys-chat-js.git`
-2. Внутри директории `composer install`
-3. Внутри директории `yii init`
+1. Клонировать репозиторий <code>git clone https://github.com/Scanerrr/dinarys-chat-js.git</code>
+2. Внутри директории <code>composer install</code>
+3. Внутри директории <code>yii init</code>
+
+<h2>Rest методы</h2>
+1. Аутентификация GET: <code>https://example.com/api/auth</code>
+2. Просмотр всех объявлений GET: <code>https://example.com/api/posts</code>
+3. Просмотр конкртетного объявления объявлений GET: <code>https://example.com/api/posts/1</code>
+4. Создание объявления POST: <code>https://example.com/api/posts?title=new&description=test</code>
+5. Редактирование объявления PUT/PATCH: <code>https://example.com/api/posts?title=new&description=test</code>
+6 Редактирование объявления PUT/PATCH: <code>https://example.com/api/posts?title=updated</code>
+7. Удаление объявления DELETE: <code>https://example.com/api/posts/3</code>
