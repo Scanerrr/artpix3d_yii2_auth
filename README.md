@@ -18,6 +18,8 @@
     <li>Клонировать репозиторий <code>git clone https://github.com/Scanerrr/dinarys-chat-js.git</code></li>
     <li>Внутри директории <code>composer install</code></li>
     <li>Внутри директории <code>yii init</code></li>
+    <li>В папке common/main-local.php изменить доступы к базе данных</li>
+    <li>Внутри директории <code>yii migrate</code></li>
 </ol>
 
 <h2>RESTful API методы</h2>
